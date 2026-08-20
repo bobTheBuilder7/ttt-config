@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "theme": "default-dark",
+  "editor": {
+    "tabSize": 4,
+    "insertSpaces": true,
+    "wordWrap": false,
+    "lineNumbers": true,
+    "formatOnSave": true,
+    "insertFinalNewline": true,
+    "trimTrailingWhitespace": true,
+    "focusOnOpen": false,
+    "gutterStyle": "compact",
+    "borderStyle": "default",
+    "bracketPairColorization": true,
+    "menuBar": true
+  },
+  "search": {
+    "debounce": 350
+  },
+  "explorer": {
+    "showHidden": true,
+    "showGitIgnored": true
+  },
+  "terminal": {
+    "scrollback": 1000
+  },
+  "lsp": {
+    "enabled": true,
+    "servers": {
+      "go": {
+        "command": [
+          "gopls"
+        ]
+      }
+    },
+    "saveOnRename": false,
+    "hoverDelay": 500
+  },
+  "autocomplete": {
+    "enabled": true,
+    "autoSuggest": true,
+    "debounce": 150,
+    "signatureHelp": true
+  },
+  "markdown": {
+    "wrapWidth": 80
+  }
+}
