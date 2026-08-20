@@ -3,7 +3,7 @@
   "theme": "default-dark",
   "editor": {
     "tabSize": 4,
-    "insertSpaces": true,
+    "insertSpaces": false,
     "wordWrap": false,
     "lineNumbers": true,
     "formatOnSave": true,
